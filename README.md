@@ -17,8 +17,8 @@ pip install -r requirements.txt
 ## Запуск
 
 Запускают скрипт со следующими необязательными параметрами:
-    1. ```-f FILE, --file```        Файл excel с информацией для публикации на сайте
-    2. ```-t TEMPLATE, --template```    Шаблон html
+1. ```-f FILE, --file```           Файл excel с информацией для публикации на сайте
+2. ```-t TEMPLATE, --template```   Шаблон html
 
 ```
 python.exe main.py -f wine.xlsx -t template.html
