@@ -50,7 +50,7 @@ def main():
         template = env.get_template(args.template)
 
         rendered_page = template.render(
-            categories=get_wines_by_category(args.file),
+            categories=get_wines_by_category(args.file).items(),
             age=get_age()
         )
 
